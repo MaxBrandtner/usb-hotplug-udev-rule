@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ACTION=="add", RUN+="/etc/libvirt/hooks/qemu.d/__VM_NAME__/usb_passthrough.sh %E{ID_VENDOR_ID} %E{ID_MODEL_ID}"
