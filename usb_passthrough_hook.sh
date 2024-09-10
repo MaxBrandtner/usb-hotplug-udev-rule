@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 initial_dir=$(dir)
 cd "$(dirname "$(realpath "$BASH_SOURCE")")"

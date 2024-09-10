@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 virsh --connect qemu:///system attach-device __VM_NAME__ /dev/stdin <<END
 <hostdev mode='subsystem' type='usb' managed='yes'>
